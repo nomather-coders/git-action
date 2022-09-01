@@ -8,4 +8,4 @@ jobs:
     steps:
      - uses: actions/checkout@v2
      - name: 노드버전 출력!!
-       run: npm test.js
+       run: node test.js
